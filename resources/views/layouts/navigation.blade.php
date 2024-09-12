@@ -10,13 +10,13 @@
 
         <!-- Navigation Links -->
         <div class="space-y-3 flex flex-col pt-6">
-            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="text-[1.5rem] anek-latin-bold pb-5 hover:scale-[1.05] hover:transition duration-100 ease-in-out hover:shadow-lg">
+            <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')" class="text-[1.4rem] anek-latin-bold pb-5 hover:scale-[1.05] hover:transition duration-100 ease-in-out hover:shadow-lg">
                 {{ __('Dashboard') }}
             </x-nav-link>
-            <x-nav-link :href="route('chart-data')" :active="request()->routeIs('chart-data')" class="text-[1.5rem] anek-latin-bold pb-5 hover:scale-[1.05] hover:transition duration-100 ease-in-out hover:shadow-lg">
-                {{ __('Grouped Bar Chart') }}
+            <x-nav-link :href="route('chart-data')" :active="request()->routeIs('chart-data')" class="text-[1.4rem] anek-latin-bold pb-5 hover:scale-[1.05] hover:transition duration-100 ease-in-out hover:shadow-lg">
+                {{ __('Bar Chart') }}
             </x-nav-link>
-            <x-nav-link :href="route('linechart.view')" :active="request()->routeIs('linechart.view')" class="text-[1.5rem] anek-latin-bold pb-5 hover:scale-[1.05] hover:transition duration-100 ease-in-out hover:shadow-lg">
+            <x-nav-link :href="route('linechart.view')" :active="request()->routeIs('linechart.view')" class="text-[1.4rem] anek-latin-bold pb-5 hover:scale-[1.05] hover:transition duration-100 ease-in-out hover:shadow-lg">
                 {{ __('Line Chart') }}
             </x-nav-link>
         </div>

@@ -7,7 +7,7 @@
                 <img src="{{ asset('photo/line_chart.svg') }}" alt="">
             </div>
             <h2 class="anek-latin-semibold text-[4vw] leading-tight text-[#522b5b]">
-                Bar Chart View
+                Line Chart View
             </h2>
         </div>
     </x-slot>
